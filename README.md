@@ -1,7 +1,7 @@
 1)리눅스 명령어(top, ps, jobs, kill)
 ---
 #### 1) top : 시스템 프로세스/ 메모리 사용 현황을 실시간으로 출력한다.
-!<img src ="https://user-images.githubusercontent.com/106420653/171998514-5e5bcadb-dfaa-4de0-ad45-476dd91f6d4e.png" width="600" height="300">
+<img src ="https://user-images.githubusercontent.com/106420653/171998514-5e5bcadb-dfaa-4de0-ad45-476dd91f6d4e.png" width="550" height="300">
 
 * top –d 갱신시간 : 화면 갱신시간을 설정한다.
 
@@ -31,7 +31,7 @@
 * jobs –l : 프로세스 번호를 추가해서 보여준다.
 ---
 #### 4) kill : 실행중인 프로세스에 특정한 시그널(종료 신호)를 보낸다. 보통 중지시킬 수 없는 프로세스를 종료시킬 때 많이 사용한다. 
-!<img src="https://user-images.githubusercontent.com/106420653/171998583-59e5932e-04ff-41b1-9dc0-0d19f9cde2ac.png" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/106420653/171998583-59e5932e-04ff-41b1-9dc0-0d19f9cde2ac.png" width="600" height="280">
 
 * kill –l : 시그널 리스트를 나열한다. 시그널 번호와 시그널 이름은 매치되어서 보여줌.
 
