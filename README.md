@@ -31,7 +31,7 @@
 * jobs –l : 프로세스 번호를 추가해서 보여준다.
 ---
 #### 4) kill : 실행중인 프로세스에 특정한 시그널(종료 신호)를 보낸다. 보통 중지시킬 수 없는 프로세스를 종료시킬 때 많이 사용한다. 
-<img src="https://user-images.githubusercontent.com/106420653/171998583-59e5932e-04ff-41b1-9dc0-0d19f9cde2ac.png" width="600" height="280">
+<img src="https://user-images.githubusercontent.com/106420653/171998583-59e5932e-04ff-41b1-9dc0-0d19f9cde2ac.png" width="600" height="260">
 
 * kill –l : 시그널 리스트를 나열한다. 시그널 번호와 시그널 이름은 매치되어서 보여줌.
 
