@@ -1,27 +1,20 @@
-1.리눅스 명령어(top, ps, jobs, kill)
+**1. 리눅스 명령어(top, ps, jobs, kill)**
 ---
 #### 1) top : 시스템 프로세스/ 메모리 사용 현황을 실시간으로 출력한다.
 <img src ="https://user-images.githubusercontent.com/106420653/171998514-5e5bcadb-dfaa-4de0-ad45-476dd91f6d4e.png" width="580" height="280">
 
 * top –d 갱신시간 : 화면 갱신시간을 설정한다.
-
 * top –q : 화면을 계속 갱신한다.
-
 * top -c : command list 전체를 보여준다.
-
 * top –i : idle 상태와 zombie 프로세스를 무시한다.
 ---
 #### 2) ps : 현재 실행중인 프로세스를 보여주는 리눅스 명령어. 현재 프로세스들의 상태를 PID와 함께 보여주며, 리눅스에서는 사용자와 파일 뿐만 아니라 프로세스도 번호로 관리한다.
 ![image](https://user-images.githubusercontent.com/106420653/171999541-81ee3a35-49a5-4b14-89ef-46f5f543e575.png)
 
 * ps -ef : 모든 프로세스를 풀 포맷으로 출력한다.
-
 * ps a : 현재 터미널의 사용자 고유 프로세스를 출력한다.
- 
 * ps u : 프로세스의 소유자의 이름, CPU 사용량, 메모리 사용량 등 상세 정보를 출력한다.
- 
 * ps -e : 커널 프로세스를 제외한 모든 프로세스를 출력한다.
- 
 * ps -u [사용자이름] : 특정 사용자에 대한 모든 프로세스의 정보를 출력한다.
 ---
 #### 3) jobs : 백그라운드로 실행중인 프로세스나 현재 중지된 프로세스의 목록을 출력해주는 명령어이다.
@@ -34,17 +27,14 @@
 <img src="https://user-images.githubusercontent.com/106420653/171999469-cee2e51e-fc2e-4854-ab8f-e30df59c4a76.png" width="600" height="260">
 
 * kill –l : 시그널 리스트를 나열한다. 시그널 번호와 시그널 이름은 매치되어서 보여줌.
-
 * kill -s : 특별히 보낼 시그널을 지정함. 시그널 번호나 시그널 이름을 지정함.
-
 * kill -9 PID : 강제종료
- 
 * kill -HUP PID : 종료된 프로세스를 다시 되살림.
 
 > PID: 프로세스 ID 
 ---
 ---
-2.vim에디터에서 매크로 사용법
+**2. vim에디터에서 매크로 사용법**
 ---
 먼저, q[name]을 입력해 레코딩을 시작한다.
 
