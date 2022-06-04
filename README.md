@@ -12,7 +12,7 @@
 * top –i : idle 상태와 zombie 프로세스를 무시한다.
 ---
 #### 2) ps : 현재 실행중인 프로세스를 보여주는 리눅스 명령어. 현재 프로세스들의 상태를 PID와 함께 보여주며, 리눅스에서는 사용자와 파일 뿐만 아니라 프로세스도 번호로 관리한다.
-![image](https://user-images.githubusercontent.com/106420653/171998374-ff73ad6a-285a-47a5-9bd7-d809eb1109e0.png)
+![image](https://user-images.githubusercontent.com/106420653/171999541-81ee3a35-49a5-4b14-89ef-46f5f543e575.png)
 
 * ps -ef : 모든 프로세스를 풀 포맷으로 출력한다.
 
