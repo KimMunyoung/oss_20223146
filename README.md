@@ -1,6 +1,7 @@
 1)리눅스 명령어(top, ps, jobs, kill)
 ---
 #### 1) top : 시스템 프로세스/ 메모리 사용 현황을 실시간으로 출력한다.
+![image](https://user-images.githubusercontent.com/106420653/171998514-5e5bcadb-dfaa-4de0-ad45-476dd91f6d4e.png)
 
 * top –d 갱신시간 : 화면 갱신시간을 설정한다.
 
@@ -11,6 +12,7 @@
 * top –i : idle 상태와 zombie 프로세스를 무시한다.
 ---
 #### 2) ps : 현재 실행중인 프로세스를 보여주는 리눅스 명령어. 현재 프로세스들의 상태를 PID와 함께 보여주며, 리눅스에서는 사용자와 파일 뿐만 아니라 프로세스도 번호로 관리한다.
+![image](https://user-images.githubusercontent.com/106420653/171998374-ff73ad6a-285a-47a5-9bd7-d809eb1109e0.png)
 
 * ps -ef : 모든 프로세스를 풀 포맷으로 출력한다.
 
@@ -24,11 +26,16 @@
 ---
 #### 3) jobs : 백그라운드로 실행중인 프로세스나 현재 중지된 프로세스의 목록을 출력해주는 명령어이다.
 
+![image](https://user-images.githubusercontent.com/106420653/171998424-b017c446-e2ba-4e93-8446-b58a93278613.png)
+
 * jobs –l : 프로세스 번호를 추가해서 보여준다.
 ---
 #### 4) kill : 실행중인 프로세스에 특정한 시그널(종료 신호)를 보낸다. 보통 중지시킬 수 없는 프로세스를 종료시킬 때 많이 사용한다. 
+![image](https://user-images.githubusercontent.com/106420653/171998583-59e5932e-04ff-41b1-9dc0-0d19f9cde2ac.png)
 
-* kill –l [-시그널 번호 또는 –시그널이름] % 작업번호 : 시그널의 종류(시그널 번호 순서대로)를 나열한다. 
+* kill –l : 시그널 리스트(시그널 번호와 시그널 이름)를 나열한다. 
+
+* kill -s : 특별히 보낼 시그널을 지정함.
 
 * kill %2 : 작업번호가 2인 프로세스를 종료시킨다.
 
