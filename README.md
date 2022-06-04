@@ -1,4 +1,4 @@
-1)리눅스 명령어(top, ps, jobs, kill)
+1.리눅스 명령어(top, ps, jobs, kill)
 ---
 #### 1) top : 시스템 프로세스/ 메모리 사용 현황을 실시간으로 출력한다.
 <img src ="https://user-images.githubusercontent.com/106420653/171998514-5e5bcadb-dfaa-4de0-ad45-476dd91f6d4e.png" width="580" height="280">
